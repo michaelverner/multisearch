@@ -25,7 +25,18 @@
     text-align: right;
 }
 
-.h3 {
+h3 {
     color: red;
+    margin: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h5 {
     margin: 3%;
+    padding-bottom: 4%;
+}
+
+p {
+    margin: 14%;
 }
