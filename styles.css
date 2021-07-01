@@ -2,8 +2,7 @@
     position: relative;
     text-align: center;  
     margin-top: 20%;
-    border: none;
-    
+    border: none; 
 }
 
 .field {
@@ -16,9 +15,23 @@
     padding-left: 5%;
 }
 
-.btn-primary {
+.a_field {
+    width: 60%;
+    outline-color: #069efd;
+}
+
+#a_form {
+    border: none;
+}
+
+#a_submit {
+    margin: 3%;
+}
+
+.btn-primary, .btn-secondary {
     width: auto;
-    border-radius: 20px;
+    border-radius: 5px;
+    padding: 3px 5px;
 }
 
 #right {
@@ -39,4 +52,5 @@ h5 {
 
 p {
     margin: 14%;
+    white-space: nowrap;
 }

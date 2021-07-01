@@ -9,6 +9,7 @@
     <body>
         
         <div class="container-fluid">
+
             <div class="row">
                 <div class="col-9">
                     <h3>Advanced Search</h3>
@@ -24,17 +25,57 @@
                 </div>
             </div>
 
+            <form autocomplete="off" action="https://google.com/search">
+
             <div class="row">
                 <div class="col-3">
                     <p>all these words:</p>
                 </div>
                 <div class="col-9">
-                    <form class="form-control" id="a_form" autocomplete="off" action="http://images.google.com/images">
-                        <input class="a_field" type="text" name="q">
-                    </form>
+                    <div class="form-control" id="a_form">
+                        <input class="a_field" type="text" name="as_q">
+                    </div>
                 </div>
-                
             </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <p>this exact word or phrase:</p>
+                </div>
+                <div class="col-9">
+                    <div class="form-control" id="a_form">
+                        <input class="a_field" type="text" name="as_epq">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <p>any of these words:</p>
+                </div>
+                <div class="col-9">
+                    <div class="form-control" id="a_form">
+                        <input class="a_field" type="text" name="as_oq">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <p>none of these words:</p>
+                </div>
+                <div class="col-9">
+                    <div class="form-control" id="a_form">
+                        <input class="a_field" type="text" name="as_eq">
+                    </div>
+                </div>
+            </div>
+
+            <input class="btn-primary" type="submit" id="a_submit" value="Advanced Search">
+
+            </form>
+            
+
         </div>
         
     </body>
